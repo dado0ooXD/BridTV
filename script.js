@@ -14,7 +14,7 @@ fetch("https://services.brid.tv/services/get/latest/26456/0/1/25/0.json")
   .then((data) => {
     displayNews(data.Video)
   })
-  .catch(error => console.log(error));
+  .catch(error => console.log(error))
 
 
 
