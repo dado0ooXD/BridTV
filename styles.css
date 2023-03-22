@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:  sans-serif;
+  font-size: 20px;
+}
+
+#wrapper{
+  background-color: gray;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.item{
+  height: 350px;
+  width: 404px;
+  background-color: lightgray;
+  margin-top:80px;
+  margin-left: 100px;
+}
+
+/* img{
+  height: 270px;
+  width: 440px;
+} */
+
+p{
+  padding: 10px;
+  font-size: 18px;
+}
+
+iframe{
+  height: 250px;
+  width: 400px;
+  margin-top: 20px;
+}
+
+
+
+
+
