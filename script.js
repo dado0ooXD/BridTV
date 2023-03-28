@@ -2,8 +2,8 @@ const displayNews = (arr) =>{
   arr.forEach((el) => {
     const parent = document.querySelector("#wrapper");
     const child1 = document.createElement("div");
-    child1.classList.add("item")
-    child1.innerHTML = `<p>${el.name}</p> <iframe src = "${el.source.ld}"></iframe> `
+    child1.classList.add("cards")
+    child1.innerHTML = `<div class="header"><p>${el.name}.</p></div> <iframe src = "${el.source.ld}"></iframe> `
     console.log(child1)
     parent.appendChild(child1)
   });
